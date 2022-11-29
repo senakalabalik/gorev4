@@ -19,7 +19,7 @@ int main() {
   int* ptr = &Province ;
   Country Türkiye;
   Türkiye.name = "Türkiye" ;
-  Türkiye.capital =*ptr // değiştir
+  Türkiye.capital =*ptr ;
   
   Province İstanbul;
   İstanbul.name = "İstanbul" ;
