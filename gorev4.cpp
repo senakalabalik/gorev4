@@ -1,29 +1,30 @@
 #include <iostream>
 #include <string>
 
-
+void Province {
+}
 struct Country {
   std::string name;
-  std::string capital; 
+  Provınce* capital; //burada * adresi deği lpoint ettiği değeri mi tutuyor?
 };
 struct Province {
   std::string name;
-  std::string domain; 
+  Country* domain; 
   
 };
 
 int main() {
-  void Province ;
-  void Country ;
-  int* ptrr = &Country ;
-  int* ptr = &Province ;
+  
+
+//  int* ptrr = &Country ;
+  //int* ptr = &Province ;
   Country Türkiye;
   Türkiye.name = "Türkiye" ;
-  Türkiye.capital =*ptr ;
+  Türkiye.capital ="Ankara" ;
   
   Province İstanbul;
   İstanbul.name = "İstanbul" ;
-  İstanbul.domain =*ptrr ;
+  //İstanbul.domain =*ptrr ;
   std::cout << İstanbul.domain ;
   
 }
