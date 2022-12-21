@@ -2,7 +2,9 @@
 #include <string>
 
 void Province {
-}
+};
+void Country{
+};
 struct Country {
   std::string name;
   Provınce* capital; //burada * adresi deği lpoint ettiği değeri mi tutuyor?
